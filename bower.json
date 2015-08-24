@@ -1,0 +1,24 @@
+{
+  "name": "themetwo",
+  "version": "0.0.1",
+  "description": "HTML Template",
+  "main": "defaul.html",
+  "keywords": [
+    "Template"
+  ],
+  "authors": [
+    "John Loydall"
+  ],
+  "license": "MIT",
+  "homepage": "developdesign.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.2"
+  }
+}
