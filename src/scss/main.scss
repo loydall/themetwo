@@ -1,0 +1,43 @@
+/*
+	SETTINGS
+*/
+
+	@import "_settings/globalSettings";
+   
+
+/*
+	TOOLS
+*/ 
+	//Mixins
+	@import "_tools/mixins/borders.scss";
+	
+	// Placeholders
+	@import "_tools/placeholders/placeholders.scss";
+	
+
+
+/*
+	GENERIC
+*/
+
+	@import "_generic/generic.scss"; 
+
+/*
+	BASE
+*/
+	@import "_base/headings.scss";
+
+/*
+	OBJECTS
+*/
+	@import "_objects/objects.scss";
+
+/*
+	COMPONENTS
+*/
+	@import "_components/components.scss";
+
+/*
+	TRUMPS
+*/
+	@import "_trumps/trumps.scss"; 

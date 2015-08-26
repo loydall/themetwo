@@ -1,0 +1,27 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+{% include "head.html" %}        
+<body>
+ 
+{% block content %}{% endblock %}
+ 
+    {% include "footer.html" %}  
+    
+<script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+</script>
+
+<script>
+    $(document).foundation();
+</script>
+
+<script>
+      //$(document).foundation();
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+</body>
+</html>

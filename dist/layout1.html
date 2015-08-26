@@ -1,0 +1,58 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Foundation Template | Blog</title>
+    <meta name="description" content="Description"/>
+    <meta name="author" content="John Loydall"/>
+
+    <link rel="stylesheet" href="css/vendor/foundation.css"/>
+    <link rel="stylesheet" href="css/vendor/normalize.css"/>
+
+    <script src="js/vendor.js"></script>
+    
+</head>        
+<body>
+ 
+
+<p>This is just an awesome page. 22</p>
+
+ 
+    <footer class="row">
+    <div class="large-12 columns">
+        <hr/>
+        <div class="row">
+            <div class="large-6 columns">
+                <p>&copy; Copyright no one at all. Go to town.</p>
+            </div>
+            <div class="large-6 columns">
+                <ul class="inline-list right">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>  
+    
+<script>
+  document.write('<script src=js/vendor/' +
+  ('__proto__' in {} ? 'zepto' : 'jquery') +
+  '.js><\/script>')
+</script>
+
+<script>
+    $(document).foundation();
+</script>
+
+<script>
+      //$(document).foundation();
+      var doc = document.documentElement;
+      doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+</body>
+</html>
